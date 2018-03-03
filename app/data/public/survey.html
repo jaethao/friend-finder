@@ -11,17 +11,8 @@
     <!-- paperkit css -->
     <link rel="stylesheet" href="assets/css/paper-kit.css">
     <link rel="stylesheet" href="assets/css/demo.css">
-    <!-- js styling -->
-    <link rel="stylesheet" href="assests/js/bootstrap-datetimepicker.min.js">
-    <link rel="stylesheet" href="assests/js/bootstrap-switch.min.js">
-    <link rel="stylesheet" href="assests/js/bootstrap.min.js">
-    <link rel="stylesheet" href="assests/js/moment.min.js">
-    <link rel="stylesheet" href="assests/js/nouislider.js">
-    <link rel="stylesheet" href="assests/js/paper-kits.js">
-    <link rel="stylesheet" href="assests/js/popper.js">
-    <!-- JQUERY -->
-    <link rel="stylesheet" href="assests/js/jquery-3.2.1.js">
-    <link rel="stylesheet" href="assests/js/jquery-ui-1.12.1.custom.min.js">
+    <!-- font awesome -->
+    <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
   </head>
 
   <body>
@@ -63,6 +54,20 @@
       <!-- personal info -->
     <form class="" action="index.html" method="post">
       <div class="form-group row">
+        <div class="col-sm-2">
+          <i class="fas fa-user fa-2x"></i>
+        </div>
+        <div class="col-sm-10">
+		<div class="input-group input-file" name="Fichier1">
+			<span class="input-group-btn">
+        		<button class="btn btn-default btn-choose" type="button">Choose</button>
+    		</span>
+    		<input type="text" class="form-control" placeholder='upload a selfie...' />
+		</div>
+	</div>
+  </div>
+
+      <div class="form-group row">
    <label for="fullName" class="col-sm-2 col-form-label col-form-label-lg">Full Name</label>
        <div class="col-sm-10">
      <input type="text" class="form-control form-control-lg" id="fullName" placeholder="Iris" required>
@@ -79,19 +84,19 @@
            <legend class="col-sm-2 col-form-label col-form-label-lg">Interested</legend>
            <div class="col-sm-10">
              <div class="form-check">
-               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+               <input class="form-check-input" type="radio" name="interested" id="gridRadios1" value="option1" checked>
                <label class="form-check-label" for="gridRadios1">
                  Woman
                </label>
              </div>
              <div class="form-check">
-               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+               <input class="form-check-input" type="radio" name="interested" id="gridRadios2" value="option2">
                <label class="form-check-label" for="gridRadios2">
                  Man
                </label>
              </div>
              <div class="form-check">
-               <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3">
+               <input class="form-check-input" type="radio" name="interested" id="gridRadios3" value="option3">
                <label class="form-check-label" for="gridRadios3">
                  Other
                </label>
@@ -223,6 +228,18 @@
           <br>
           <br>
     </footer>
+    <!-- JQUERY -->
+    <script src="assets/js/jquery-3.2.1.js"></script>
+    <script src="assets/js/jquery-ui-1.12.1.custom.min.js"></script>
 
+    <!-- js -->
+    <script src="assets/js/moment.min.js"></script>
+    <script src="assets/js/bootstrap-datetimepicker.min.js"></script>
+    <script src="assets/js/bootstrap-switch.min.js"></script>
+    <script src="assets/js/popper.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/nouislider.js"></script>
+    <script src="assets/js/paper-kit.js"></script>
+    <script src="assets/js/upload.js"></script>
   </body>
 </html>
