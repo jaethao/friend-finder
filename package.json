@@ -5,8 +5,10 @@
   "main": "index.js",
   "dependencies": {
     "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "json": "^9.0.6",
     "path": "^0.12.7",
-    "express": "^4.16.2"
+    "require": "^2.4.20"
   },
   "devDependencies": {},
   "scripts": {
