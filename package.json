@@ -1,26 +1,15 @@
 {
-  "name": "friend-finder",
+  "name": "app",
   "version": "1.0.0",
-  "description": "Full-stack app using Node JS, Express, and an API",
-  "main": "index.js",
-  "dependencies": {
-    "body-parser": "^1.18.2",
-    "express": "^4.16.2",
-    "json": "^9.0.6",
-    "path": "^0.12.7"
-  },
-  "devDependencies": {},
+  "description": "",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jaethao/friend-finder.git"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/jaethao/friend-finder/issues"
-  },
-  "homepage": "https://github.com/jaethao/friend-finder#readme"
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
